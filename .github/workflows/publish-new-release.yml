@@ -190,7 +190,7 @@ jobs:
 
 
           # Commit and push to origin develop
-          git add $(find -name pom.xml)
+          git add gradle.properties
           git commit --message "Introduce new snapshot version $SNAPSHOT_VERSION"
 
           git push origin develop
