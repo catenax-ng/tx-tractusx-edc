@@ -3,45 +3,45 @@ entries:
   edc-controlplane:
   - apiVersion: v2
     appVersion: 0.3.1
-    created: "2023-03-27T16:04:05.391064329Z"
+    created: "2023-03-27T16:04:06.754570137Z"
     deprecated: true
     description: EDC Control-Plane - The Eclipse DataSpaceConnector administration
       layer with responsibility of resource management and govern contracts and data
       transfers
-    digest: c26549ddcc5b6c9fe0aa199cb0a1f937e26af86e751f6164b2e3bde4088c0a57
+    digest: ebcf1dc8bc291e5f33f5f62f5c83ed0865422cc8dabb653441af12094a2e6de7
     home: https://github.com/eclipse-tractusx/tractusx-edc
     name: edc-controlplane
     sources:
     - https://github.com/eclipse-tractusx/tractusx-edc
     type: application
     urls:
-    - https://github.com/catenax-ng/tx-tractusx-edc/releases/download/edc-controlplane-0.3.1/edc-controlplane-0.3.1.tgz
+    - https://catenax-ng.github.io/tx-tractusx-edc/helm-charts/edc-controlplane-0.3.1.tgz
     version: 0.3.1
   edc-dataplane:
   - apiVersion: v2
     appVersion: 0.3.1
-    created: "2023-03-27T16:04:05.561617682Z"
+    created: "2023-03-27T16:04:06.755825716Z"
     deprecated: true
     description: EDC Data-Plane - The Eclipse DataSpaceConnector data layer with responsibility
       of transferring and receiving data streams
-    digest: 6a9d95d35775dd69f3af00f21d7318c088a290221cc102f187f059aea9df1a5d
+    digest: 57e5c3e8ecf40a54ddbbcec84006d7fa466a7805d97a5f7b00a5691cd7b94269
     home: https://github.com/eclipse-tractusx/tractusx-edc
     name: edc-dataplane
     sources:
     - https://github.com/eclipse-tractusx/tractusx-edc
     type: application
     urls:
-    - https://github.com/catenax-ng/tx-tractusx-edc/releases/download/edc-dataplane-0.3.1/edc-dataplane-0.3.1.tgz
+    - https://catenax-ng.github.io/tx-tractusx-edc/helm-charts/edc-dataplane-0.3.1.tgz
     version: 0.3.1
   tractusx-connector:
   - apiVersion: v2
     appVersion: 0.3.1
-    created: "2023-03-27T16:04:05.725550876Z"
+    created: "2023-03-27T16:04:06.757626528Z"
     description: A Helm chart for Tractus-X Eclipse Data Space Connector
-    digest: 259ae8c0b70f8ac1f9456e540353241a88d8d6726e9326eebf6b4b3757cad7f1
+    digest: fd26de49750580ea85b0a8c753213f217d424c1939be7ccc13a3f3ba2034669d
     name: tractusx-connector
     type: application
     urls:
-    - https://github.com/catenax-ng/tx-tractusx-edc/releases/download/tractusx-connector-0.3.1/tractusx-connector-0.3.1.tgz
+    - https://catenax-ng.github.io/tx-tractusx-edc/helm-charts/tractusx-connector-0.3.1.tgz
     version: 0.3.1
-generated: "2023-03-27T16:04:05.725556777Z"
+generated: "2023-03-27T16:04:06.752255993Z"
