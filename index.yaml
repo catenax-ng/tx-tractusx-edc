@@ -3,23 +3,23 @@ entries:
   edc-controlplane:
   - apiVersion: v2
     appVersion: 0.3.2
-    created: "2023-03-30T20:58:03.7431195Z"
+    created: "2023-03-30T20:58:07.965353069Z"
     deprecated: true
     description: EDC Control-Plane - The Eclipse DataSpaceConnector administration
       layer with responsibility of resource management and govern contracts and data
       transfers
-    digest: f4856d24613c6792438a388ad0cda2dc53623dd856179b8d0febe44ad9e7b606
+    digest: 71b08b2af0af9ca76c6b632f9a7ee59030bc28061af6fbac463a3f907865ac73
     home: https://github.com/eclipse-tractusx/tractusx-edc/tree/main/charts/edc-controlplane
     name: edc-controlplane
     sources:
     - https://github.com/eclipse-tractusx/tractusx-edc/tree/main/charts/edc-controlplane
     type: application
     urls:
-    - https://github.com/catenax-ng/tx-tractusx-edc/releases/download/edc-controlplane-0.3.2/edc-controlplane-0.3.2.tgz
+    - https://catenax-ng.github.io/tx-tractusx-edc/helm-charts/edc-controlplane-0.3.2.tgz
     version: 0.3.2
   - apiVersion: v2
     appVersion: 0.3.1
-    created: "2023-03-27T16:04:06.754570137Z"
+    created: "2023-03-30T20:58:07.963865278Z"
     deprecated: true
     description: EDC Control-Plane - The Eclipse DataSpaceConnector administration
       layer with responsibility of resource management and govern contracts and data
@@ -36,22 +36,22 @@ entries:
   edc-dataplane:
   - apiVersion: v2
     appVersion: 0.3.2
-    created: "2023-03-30T20:58:03.94701603Z"
+    created: "2023-03-30T20:58:07.968377751Z"
     deprecated: true
     description: EDC Data-Plane - The Eclipse DataSpaceConnector data layer with responsibility
       of transferring and receiving data streams
-    digest: 1556763383c57d6b28a9a3ff08ff2a266c40be1ddf187f9a44f95346ee14346b
+    digest: bffa67ad856f3c60ddfbb76179dd5bb3a3a1b16eaa70da7aac81a3a37d8c85c6
     home: https://github.com/eclipse-tractusx/tractusx-edc/tree/main/charts/edc-dataplane
     name: edc-dataplane
     sources:
     - https://github.com/eclipse-tractusx/tractusx-edc/tree/main/charts/edc-dataplane
     type: application
     urls:
-    - https://github.com/catenax-ng/tx-tractusx-edc/releases/download/edc-dataplane-0.3.2/edc-dataplane-0.3.2.tgz
+    - https://catenax-ng.github.io/tx-tractusx-edc/helm-charts/edc-dataplane-0.3.2.tgz
     version: 0.3.2
   - apiVersion: v2
     appVersion: 0.3.1
-    created: "2023-03-27T16:04:06.755825716Z"
+    created: "2023-03-30T20:58:07.96678756Z"
     deprecated: true
     description: EDC Data-Plane - The Eclipse DataSpaceConnector data layer with responsibility
       of transferring and receiving data streams
@@ -67,20 +67,20 @@ entries:
   tractusx-connector:
   - apiVersion: v2
     appVersion: 0.3.2
-    created: "2023-03-30T20:58:04.123904699Z"
+    created: "2023-03-30T20:58:07.97345602Z"
     description: A Helm chart for Tractus-X Eclipse Data Space Connector
-    digest: ef6c1b16c33fefdbc06e9a7e4d4fccb43a567c3f6995f87c987b2e79dbb359d7
+    digest: be7d75a1c8461f0a20582f8cc66a83fe390c6f67912ad2e741583c4cd3f03554
     home: https://github.com/eclipse-tractusx/tractusx-edc/tree/main/charts/tractusx-connector
     name: tractusx-connector
     sources:
     - https://github.com/eclipse-tractusx/tractusx-edc/tree/main/charts/tractusx-connector
     type: application
     urls:
-    - https://github.com/catenax-ng/tx-tractusx-edc/releases/download/tractusx-connector-0.3.2/tractusx-connector-0.3.2.tgz
+    - https://catenax-ng.github.io/tx-tractusx-edc/helm-charts/tractusx-connector-0.3.2.tgz
     version: 0.3.2
   - apiVersion: v2
     appVersion: 0.3.1
-    created: "2023-03-27T16:04:06.757626528Z"
+    created: "2023-03-30T20:58:07.970739937Z"
     description: A Helm chart for Tractus-X Eclipse Data Space Connector
     digest: fd26de49750580ea85b0a8c753213f217d424c1939be7ccc13a3f3ba2034669d
     name: tractusx-connector
@@ -88,4 +88,4 @@ entries:
     urls:
     - https://catenax-ng.github.io/tx-tractusx-edc/helm-charts/tractusx-connector-0.3.1.tgz
     version: 0.3.1
-generated: "2023-03-30T20:58:04.123916199Z"
+generated: "2023-03-30T20:58:07.960369898Z"
